@@ -1,0 +1,312 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color: rgb(199, 197, 197); */
+}
+.all1{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: rgb(238, 229, 229);
+}
+.headerdiv{
+    display: flex;
+    justify-content:space-around;
+    margin: 5px;
+    /* background-color: rgb(248, 237, 205); */
+}
+.headerdiv p{
+    margin-right: 50px;
+}
+.headerdiv2{
+    display: flex;
+    justify-content:space-around ;
+   
+}
+.headerdiv2 div{
+    margin: 5px;
+}
+.headerdiv2 select{
+    background-color: white;
+}
+.all2{
+    margin: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.head2{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    padding: 10px;
+   
+}
+.head2 input{
+    padding: 5px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head2 i{
+    border: 1px solid black;
+    padding: 6px;
+    padding-bottom: 8px;
+    position: relative;
+    right: 5px;
+}
+.mult{
+    background-color: black;
+    color: gold;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.shop{
+    padding-right: 5px;
+    color: black;
+    background-color: gold;
+}
+.Customer{
+    font-weight: 600;
+}
+.allnav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: black;
+    max-height:40px;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav1{
+display: flex;
+}
+.nav1 i{
+    background-color: gold;
+    color: black;
+    padding: 5px;
+}
+.nav1 div{
+    margin-right: 50px;
+    padding: 10px;
+    /* background-color: gold; */
+}
+.nav1 div:hover{
+background-color: red;
+}
+.nav1 select{
+    border-color: transparent;
+    border: 1px solid transparent;
+    background-color: gold;
+   
+}
+.nav2{
+    display: flex; 
+    padding: 10px;
+}
+.nav2 div{
+    margin-left: 50px;
+}
+.nav2 i{
+    color: gold;
+}
+.all-backimg{
+    margin: 20px;
+display: flex;
+justify-content: space-between;
+}
+.backimg1{
+    background-image: url(img/carousel-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 410px;
+    width: 900px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.backimg2{
+    background-image: url(img/offer-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 400px;
+    margin-left: 20px;
+}
+.backimg3{
+    background-image: url(img/offer-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.button1{
+    margin-top: 50px;
+    padding: 10px;
+    width: 150px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+    border-color: white;
+}
+.dotdiv{
+    display: flex;
+}
+.dot{
+    border: 1px solid white;
+    height: 10px;
+    width: 15px;
+    margin-right: 10px;
+    position: relative;
+    left: 410px;
+    top:50px ;
+}
+.dot2{
+    border: 1px solid white;
+    height: 10px;
+    width: 15px;
+    margin-right: 10px;
+    position: relative;
+    left: 410px;
+    top:50px ;
+    background-color: white;
+}
+.allimg2{
+text-align: center;
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.button2{
+padding: 5px;
+background-color: gold;
+border-color: transparent;
+margin: 20px;
+/* position: relative;
+top: 50px; */
+
+
+}
+.backimg2 p{
+    color: white;
+    /* position: relative;
+    top: 30px; */
+    line-height: 1.5;
+}
+.backimg3 p{
+    color: white;
+    /* position: relative;
+    top: 30px; */
+    line-height: 1.5;
+}
+.quality-div{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.quality-div p{
+    background-color: rgb(227, 241, 241);
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.catigories p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin: 20px;
+}
+.catigories hr{
+    width: 1165px;
+    position: relative;
+    bottom: 32px;
+    margin-left: 160px;
+}
+.catimg{
+    display: flex;
+    justify-content: space-between;
+}
+.catimg img{
+    margin: 20px;
+    height: 80px; 
+    margin-right: 150px; 
+}
+.catimg p{
+margin-left: 100px;
+position: relative;
+bottom: 80px;
+text-align: center;
+margin-right: 20px;
+line-height: 1.5;
+}
+.catimg p:hover{
+    background-color: gold;
+}
+.imageall{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 150px;
+}
+.image1{
+    background-image: url(img/offer-1.jpg);
+    height: 200px;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+.image2{
+    background-image: url(img/offer-2.jpg);
+    height: 200px;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color:white ;
+}
+.product{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px;
+}
+.product img{
+    height: 150px;
+    padding: 11px;
+}
+.product p{
+    margin: 0px 30px;
+}
+.vendordiv{
+    background-color: rgb(238, 229, 229);
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+}
+.vendordiv img{
+    width: 60px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+
+/* Resposiviness
+@media(max-width:972px){
+    .nav1{
+  display: block;
+
+    }
+  
+} */
